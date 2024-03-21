@@ -1,0 +1,65 @@
+*{
+    margin : 0; /*Define a área de margem nos quatro lados do elemento*/
+    padding: 0; /*Define uma distância entre o conteúdo de um elemento e as suas bordas*/
+}
+
+body{
+    background-image: url('../img/halo2.png'); /*Adiciona uma imagem ao fundo da tela*/
+    background-repeat: no-repeat; /*Não permite repetição da imagem*/
+    background-size: cover; /*Define o tamanho do fundo*/
+}
+header{
+    width: 100%; /*Largura*/
+    height: 100px; /*Altura*/
+    text-align: center; /*Alinha o texto*/
+    display: flex; /*utilizada para indicar a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+    flex-direction: row; /*define como os itens flexíveis são colocados no contêiner flexível*/
+    justify-content: space-evenly; /*Alinha os itens longo do eixo principal*/
+    align-items: center; /*Alinha os itens*/
+}
+nav{
+    flex-direction: row;
+    display: flex; /*utilizada para indicar a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+}
+
+a{
+    color: aliceblue;  /* altera a cor do texto*/
+    text-decoration: none;  /*Decora o texto*/
+    margin: 30px;
+}
+.img1{
+    width: 50px; /*Largura*/
+    height: 50px; /*Altura*/
+}
+main{
+    display: flex; /*utilizada para indicar a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+    flex-direction: column;  /*Alinha os itens longo do eixo principal*/
+    align-items: center; /*Alinha os itens*/
+    height: 80vh; /*Altura*/
+    
+}
+h1{
+    color: aliceblue; /*Altera a cor da letra*/
+    font-size: 100px; /*Altera o tamanho da letra*/
+    text-align: center; /*Alinha o texto*/
+    font-family: 'Arial Narrow Bold'; /*Altera o tipo de fonte*/
+    word-spacing: 350px; /**/
+}
+.clouds{
+    display: flex; /*utilizada para indicar a forma como os elementos HTML serão dispostos na página ou em espaços delimitados*/
+    flex-direction: row;
+    justify-content: space-between;  /*Alinha os itens longo do eixo principal*/
+    align-items: flex-end; /*Alinha os itens*/
+    height: 100%; /*Altura*/
+    position: absolute;
+}
+.cloudleft,
+.cloudrigth{
+    width: 50%; /*Largura*/
+}
+.foguete{
+    width: 320px; /*Largura*/
+    height: 640px; /*Altura*/
+    justify-self: center;
+    position: absolute;
+}

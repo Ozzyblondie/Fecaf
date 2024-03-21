@@ -1,0 +1,135 @@
+
+*{ 
+    margin : 0; 
+    padding: 0; /
+}
+
+body{
+    height: 100vh; 
+    width: 100vw;
+    display: flex; 
+    flex-direction: column; 
+}
+
+header{
+    height: 90px; 
+    background-color: #01013f;
+}
+header nav{
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+    display: flex; 
+    color: white; 
+    align-items: center; 
+    margin-left: 75px; 
+    gap: 20px; 
+    font-weight: bold; 
+
+}
+a{
+    text-decoration: none;  
+    color: aliceblue;  
+}
+
+.branco{
+    color: aliceblue;  
+}
+
+.vermelho{
+    color: red
+}
+.musicfecaf
+{
+    color: WHITE;
+    margin-right: 225px; 
+    font-weight: bold;  
+}
+.HELP{
+    margin-left: 150px;
+    font-weight: bold;  
+}
+
+.CREATEANACCOUNT {
+    color:red;
+    font-weight: bold;  
+
+}
+main{
+    font-family: "Montserrat", sans-serif;
+    background-color: #020230;
+    display: flex; 
+    flex-direction: row;  
+    height: 80vh; 
+}
+h1 {
+    color: aliceblue;
+    font-size: 100px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;  
+ 
+}
+p{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;  
+}
+.img{
+    width: 500px;
+    height: 500px;
+    margin-left: 351px;
+}
+footer{
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    height: 10vh; 
+    background-color: #01013f;
+}
+.paragrafo{
+    margin-top: 10px;
+}
+
+.botao1{
+    background-color: red;
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-right: 4vh;
+}
+
+.botao2{
+    background-color: rgb(70, 0, 128);
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.buttons{
+    display: flex; 
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.textobotao{
+    justify-content: center;
+    margin-left: 20vh;
+}
